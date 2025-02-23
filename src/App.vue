@@ -36,7 +36,7 @@ export default{
   },
   methods: {
      async press(){
-      let apikey = '7b614683c2471e0714b175f8c8835f56' 
+      let apikey = '#' 
       let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.inp}&appid=${apikey}&units=metric&lang=ru`)
       
       if(!response.ok){
